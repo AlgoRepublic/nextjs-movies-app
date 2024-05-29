@@ -1,0 +1,36 @@
+{
+    "login": {
+        "title": "Sign In",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Login",
+        "remember": "Remember me"
+    },
+    "movies": {
+        "title": "My Movies",
+        "logout": "Logout",
+        "prev": "Prev",
+        "next": "Next",
+        "search": "Search",
+        "loading": "Loading...",
+        "searchPlaceholder": "Search for a movie",
+        "noResults": "No results found",
+        "error": "An error occurred while fetching the movies",
+        "create": {
+            "heading": "Create a new movie",
+            "title": "Title",
+            "year": "Publishing Year",
+            "dropImage": "Drop image here",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        },
+        "edit": {
+            "heading": "Edit",
+            "title": "Title",
+            "year": "Publishing Year",
+            "dropImage": "Drop image here",
+            "cancel": "Cancel",
+            "submit": "Update"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "login": {
+        "title": "Se connecter",
+        "email": "E-mail",
+        "password": "mot de passe",
+        "submit": "Se connecter",
+        "remember": "Se souvenir de moi"
+    },
+    "movies": {
+        "title": "Mes Films",
+        "logout": "Se déconnecter",
+        "prev": "Précédente",
+        "next": "Suivant",
+        "search": "Recherche",
+        "loading": "Chargement...",
+        "searchPlaceholder": "Rechercher un film",
+        "noResults": "Aucun résultat trouvé",
+        "error": "Une erreur s'est produite lors de la récupération des films",
+        "create": {
+            "heading": "Créer un nouveau film",
+            "title": "Titre",
+            "year": "Année de publication",
+            "dropImage": "Déposez l'image ici",
+            "cancel": "Annuler",
+            "submit": "Soumettre"
+        },
+        "edit": {
+            "heading": "modifier",
+            "title": "Titre",
+            "year": "Année de publication",
+            "dropImage": "Déposez l'image ici",
+            "cancel": "Annuler",
+            "submit": "mise à jour"
+        }
+    }
+}
