@@ -44,14 +44,13 @@ const EditPage: React.FC<Props> = ({ dict }) => {
   }
 
   const onSubmit = async (values: any) => {
-    console.log('called')
     try {
       setLoading(true)
       const formData = new FormData()
       formData.append('title', values.title)
       formData.append('publishingYear', values.publishingYear)
-      if (poster !== null) {
-        formData.append('poster', poster)
+      if (selectedImage) {
+        formData.append('poster', selectedImage)
       }
       const res = await fetch(`/api/movies/${id}`, {
         method: 'PUT',
